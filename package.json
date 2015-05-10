@@ -1,13 +1,13 @@
 {
-	"name": "tianma-route",
-	"description": "",
-	"version": "1.0.0-b0",
-	"license": "MIT",
-	"dependencies": {
-		"path-to-regexp": "~1.0.3"
-	},
-	"engines": {
-		"node": ">=0.12.0"
-	},
-	"main": "index.js"
+    "name": "tianma-route",
+    "description": "",
+    "version": "1.0.0-b0",
+    "license": "MIT",
+    "dependencies": {
+        "path-to-regexp": "~1.0.3"
+    },
+    "engines": {
+        "node": ">=0.12.0"
+    },
+    "main": "index.js"
 }
