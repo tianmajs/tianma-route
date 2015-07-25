@@ -1,22 +1,30 @@
 {
     "name": "tianma-route",
-    "description": "",
-    "version": "1.0.0-b0",
-    "license": "MIT",
-    "engines": {
-        "node": ">=0.12.0"
+    "description": "Router middleware for Tianma",
+    "version": "1.0.0",
+    "author": "Nanqiao Deng <nqdeng@gmail.com>",
+    "keywords": [
+        "route",
+        "middleware",
+        "tianma"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tianmajs/tianma-route.git"
     },
-    "main": "index.js",
+    "license": "MIT",
     "dependencies": {
         "path-to-regexp": "~1.0.3"
     },
     "devDependencies": {
-        "tianma": "~1.0.0-r0",
-        "mocha": "^2.2.1",
-        "should": "^3.3.2",
-        "supertest": "~0.15.0",
-        "tianma-static": "~1.0.0-b2"
+        "tianma": "~1.0.0",
+        "mocha": "~2.2.5",
+        "supertest": "~0.15.0"
     },
+    "engines": {
+        "node": ">=0.12.0"
+    },
+    "main": "index.js",
     "scripts": {
         "test": "mocha --harmony"
     }
